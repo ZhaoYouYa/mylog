@@ -1,14 +1,25 @@
+
+> 只要使用qt 开发，就应该使用qtcreator。不要使用 vs。c++以后只有一种构建系统，那就是CMake.
+
 ## 1. CMake的配置
 
-使用Qt开发项目，只选择CMake，不要选择qmake。
+使用Qt开发项目，只选择CMake，不要选择qmake。下，可以配置CMake.
 
+![](images/qtcmake.png)
+
+在 initial configure ，中可以配置vcpkg。
 ## 2. 代码格式化方法
+
+1. 在 help->about pligins中，选择使用 Beautifier 插件
+2. 下载clang
+3. 在Manager Kits->Beautifier->clang format中配置 clang format的地址，使用llvm风格就可以
 
 
 ## 3. 代码风格和样式
 
+使用浅色风格。ZhaoYouya.xml是配置好的风格。
 
-## 让qtcreator变"绿"
+## 4. 让qtcreator变"绿"
 
 
 使用qtcreator的时候，默认的帮助界面背景色是白色的，有点刺眼，为了可以看的舒服一点，把它改成绿色，下图效果。
