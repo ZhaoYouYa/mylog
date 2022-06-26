@@ -1,18 +1,23 @@
 > Initially,I only write cpp code,but now,I also write C#，python,and javascript. I need a unidentified code style.
 
-## 1. File Name
+
+## 1. Dir Name
+
+There are no special styles, any style is OK, but all dir names should have the same style. 
+
+## 2. File Name
 
 1. Typically, don't use uppercase. like `hello.h`, `hello.cs`, `hello.js`, and `hello.py` are better. 
 2. Using uppercase is also OK, usually, that occurred when I use C# with asp.net.
 3. `_` and `-` are forbid
 
 
-## 2. Class 
+## 3. Class or Region
 
 
 1. `class name` The first letter is capitalized. Using CamelCase. the namespace name is the same style.
 2. `variable member` the first word is `_`, The interval in words is also `_`, don't use uppercase. if the variable is a group type, use like `_s_name`.
-3. `function member`. Using CamelCase. the first letter is not capitalized. even if in C#.
+3. `function member`. Using CamelCase. the first letter is not capitalized(if you can do it). even if in C#.
 
 
 for example:
@@ -33,15 +38,15 @@ public:
 ```C#
 class Human 
 {
-    public void eat(){ //DO Eat};
-    public List<GirlFriend> __s_girl_friend {get;set;}
+    public void eat(){};
+    public List<GirlFriend> _s_girl_friend {get;set;}
     public string _name{get;set;};
 
 }
 ```
 4. let variable members in a region, and function members in another region.
 
-`wrong`
+`bad`
 ``` javascript
 
 <script setup>
@@ -54,7 +59,7 @@ let age = 10
 
 ```
 
-`right`
+`good`
 
 ``` javascript
 
@@ -70,7 +75,7 @@ function eat() {
 
 ``` 
 
-## 3. other
+## 4. Function and Lambda
 
 1. `parameter` end with `_`, using CamelCase.
 2. if I don't need a name with some meaning, use `_`,`1_`, and so on.
@@ -101,14 +106,14 @@ arr.forEach(_=>{
 
 
 
-## 4. javascript in VUE
+## 5. javascript in VUE
 
 1. if a variable is a 'ref' value. using like `const _name = ref('ZhaoYouya')`, it is similar to variable members in a class.
 2. usually, a variable name uses CamelCase style, the first letter is not capital. this has a good difference with 'ref' variables.
 
 
 
-## 5. SQL Name.
+## 6. SQL Name.
 
 1. `Table Name`. they have a prefix, and use `_` as an interval word. like `sys_user`
 2. `Field Name` use CamelCase, the first letter is capital. 
