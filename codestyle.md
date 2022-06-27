@@ -84,7 +84,7 @@ function eat() {
 
 ## 4. Function and Lambda
 
-1. `parameter` end with `_`, using CamelCase.
+1. `parameter` end with `_`(for no other need), using CamelCase.
 2. if I don't need a name with some meaning, use `_`,`1_`, and so on.
 
 `CPP`
