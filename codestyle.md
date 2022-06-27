@@ -85,8 +85,9 @@ arr.forEach(_=>{
 
 ### 1.5 SQL Name.
 
-1. `Table Name`. they have a prefix, and use `_` as an interval word. like `sys_user`
-2. `Field Name` use CamelCase, the first letter is capital. 
+1. `DB Name` use CamelCase, the first letter is capital. 
+2. `Table Name`. they have a prefix, and use `_` as an interval word. like `sys_user`
+3. `Field Name` use CamelCase, the first letter is capital. 
 
 ## 2. Code Construct
 
