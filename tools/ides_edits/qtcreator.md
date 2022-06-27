@@ -7,7 +7,7 @@
 
 ![](images/qtcmake.png)
 
-在 initial configure ，中可以配置vcpkg。
+例如，在 initial configure ，中可以配置vcpkg。
 ## 2. 代码格式化方法
 
 1. 在 help->about pligins中，选择使用 Beautifier 插件
