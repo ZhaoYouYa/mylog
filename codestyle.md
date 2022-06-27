@@ -1,4 +1,4 @@
-> Initially,I only write cpp code,but now,I also write C#，python,and javascript. I need a unidentified code style.
+> Initially,I only write cpp code,but now,I also write C#，python, and javascript. I need an unidentified code style.
 
 
 ## 1. Dir Name
@@ -17,7 +17,7 @@ There are no special styles, any style is OK, but all dir names should have the 
 
 1. `class name` The first letter is capitalized. Using CamelCase. the namespace name is the same style.
 2. `variable member` the first word is `_`, The interval in words is also `_`, don't use uppercase. if the variable is a group type, use like `_s_name`.
-3. `function member`. Using CamelCase. the first letter is not capitalized(if you can do it). even if in C#.
+3. `function member`. Using CamelCase. the first letter is not capitalized, but in C#, the first letter can be capitalized.
 
 
 for example:
