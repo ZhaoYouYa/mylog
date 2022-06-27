@@ -22,6 +22,7 @@ There are no special styles, any style is OK, but all dir names should have the 
 
 for example:
 
+`cpp`
 ```cpp
 
 class Human {
@@ -34,6 +35,7 @@ public:
 
 ```
 
+`C#`
 
 ```C#
 class Human 
@@ -75,6 +77,10 @@ function eat() {
 
 ``` 
 
+`Vue`
+5. if a variable is a 'ref' value. using like `const _name = ref('ZhaoYouya')`, it is similar to variable members in a class.
+6. usually, a variable name uses CamelCase style, the first letter is not capital. this has a good difference with 'ref' variables.
+
 ## 4. Function and Lambda
 
 1. `parameter` end with `_`, using CamelCase.
@@ -104,16 +110,7 @@ arr.forEach(_=>{
 })
 ```
 
-
-
-## 5. javascript in VUE
-
-1. if a variable is a 'ref' value. using like `const _name = ref('ZhaoYouya')`, it is similar to variable members in a class.
-2. usually, a variable name uses CamelCase style, the first letter is not capital. this has a good difference with 'ref' variables.
-
-
-
-## 6. SQL Name.
+## 5. SQL Name.
 
 1. `Table Name`. they have a prefix, and use `_` as an interval word. like `sys_user`
 2. `Field Name` use CamelCase, the first letter is capital. 
