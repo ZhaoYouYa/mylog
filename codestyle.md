@@ -77,11 +77,10 @@ function eat() {
 
 ``` 
 
-`Vue`
 
-5. if a variable is a 'ref' value. using like `const _name = ref('ZhaoYouya')`, it is similar to variable members in a class.
-6. 
-7. usually, a variable name uses CamelCase style, the first letter is not capital. this has a good difference with 'ref' variables.
+
+5. `[Vue]`if a variable is a 'ref' value. using like `const _name = ref('ZhaoYouya')`, it is similar to variable members in a class.
+6. `[Vue]`usually, a variable name uses CamelCase style, the first letter is not capital. this has a good difference with 'ref' variables.
 
 ## 4. Function and Lambda
 
