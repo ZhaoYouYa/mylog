@@ -10,7 +10,7 @@
 ### 1.1 The features why you use C#
 
 1. If you have experience in writing c++, c# is very easy for you.
-2. C# is not a community language, it belongs to Microsoft. so, there are many great packages like asp. net, EF-Core, and so on for C#.
+2. C# is not a community language, it belongs to Microsoft. so, there are many great packages like asp. net, EF-Core, and so on for C#. Microsoft had decided that C# is their **first** language.
 3. Not a system language, but C# has enough high speed.
 4. C# has a big surface, sometimes, it causes a little confusion, but as a direct result, it can build apps in a great variety.
 
@@ -28,6 +28,8 @@
 ### 2.1 Some examples
 
 #### 2.1.1 Aggregate String
+
+> At two list, group one by other, aggregate some value
 
 ```csharp
 record r1(int groupId,string mark);
